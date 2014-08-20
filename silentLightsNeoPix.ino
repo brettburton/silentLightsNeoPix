@@ -26,7 +26,7 @@ unsigned int sample;
 double bits = 0;
 int threshold1 = 1;
 //  int threshold2 = 2.1;
-int threshold2 = 650;
+int threshold2 = 675;
 float hueChange = 0;
 
 //--------------------------------------------------------------------------------

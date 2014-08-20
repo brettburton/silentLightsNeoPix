@@ -53,13 +53,13 @@
   case 9:
     //initialize();
     reverseWave(strip1.Color(80, 40, 255), 5); //pink
-    wave(strip1.Color(0, 100, 255), 5); //cyan
+   // wave(strip1.Color(0, 100, 255), 5); //cyan
     soundSampling();
     break;
 
   case 10:
     initialize();
-    wave(strip1.Color(0, 0, 255), 5); //blue
+//    wave(strip1.Color(0, 0, 255), 5); //blue
     reverseWave(strip1.Color(0, 100, 255), 5); //cyan
     soundSampling();
     break;
@@ -67,7 +67,7 @@
   case 11:
     initialize();
     wave(strip1.Color(0, 100, 255), 5); //cyan
-    reverseWave(strip1.Color(80, 40, 255), 5); //pink
+ //   reverseWave(strip1.Color(80, 40, 255), 5); //pink
     soundSampling();
     break;
 
@@ -80,7 +80,7 @@
 
   case 13:
     initialize();
-    wave(strip1.Color(80, 40, 255), 5); //pink
+//    wave(strip1.Color(80, 40, 255), 5); //pink
     reverseWave(strip1.Color(0, 0, 255), 5); //blue
     soundSampling();
     break; 
